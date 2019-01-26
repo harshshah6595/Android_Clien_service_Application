@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BIND SERVICE" />
+
+            <Button
+                android:id="@+id/stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UNBIND SERVICE" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MONTHLY CASH" />
+
+
+        <EditText
+            android:id="@+id/year1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter A Year"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/submit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Monthly Cash" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YEARLY AVERAGE" />
+
+
+        <EditText
+            android:id="@+id/year2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter A Year"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/submit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Yearly Average" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DAILY CASH" />
+
+        <EditText
+            android:id="@+id/day3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter A day"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/month3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Month"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/year3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter A Year"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/gap3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter no of days"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/submit3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Daily Cash" />
+
+        <Button
+            android:id="@+id/act"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History calls" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</ScrollView>
