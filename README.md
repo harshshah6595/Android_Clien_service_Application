@@ -1,3 +1,2 @@
 # Android_Project
-Android app requesting services from a app which retrieves JSON tables from a website and returns the requested value in a structures format
-
+Android app requesting services from a app which retrieves JSON tables from a website and returns the requested value in a structures format. Made use of JSON, SQL queries and AndroidHttpClient to retrieve the data. Incorporated Android interface definition language (AIDL) to expose service functionality to the client. Service responds to the client based on the API request of the client
